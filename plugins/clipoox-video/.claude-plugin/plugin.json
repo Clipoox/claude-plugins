@@ -1,0 +1,22 @@
+{
+  "name": "clipoox-video",
+  "displayName": "Clipoox Video",
+  "version": "1.0.0",
+  "description": "Edit video like a pro editor from Claude Code: ffmpeg workflow with self-checks, the Clipoox Timeline over MCP, and a setup check for the free open-source tools.",
+  "author": {
+    "name": "Clipoox",
+    "url": "https://clipoox.com"
+  },
+  "homepage": "https://clipoox.com/academy/skill-edit-video-ai-agent",
+  "repository": "https://github.com/Clipoox/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "editing",
+    "ffmpeg",
+    "captions",
+    "clipoox",
+    "timeline"
+  ],
+  "privacyPolicyUrl": "https://clipoox.com/chinh-sach-bao-mat"
+}

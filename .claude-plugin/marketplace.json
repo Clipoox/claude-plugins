@@ -1,0 +1,34 @@
+{
+  "name": "clipoox",
+  "description": "Clipoox plug-ins for Claude Code: AI video editing skills and the Clipoox Timeline connector.",
+  "owner": { "name": "Clipoox", "url": "https://clipoox.com" },
+  "plugins": [
+    {
+      "name": "clipoox-video",
+      "source": "./plugins/clipoox-video",
+      "description": "Edit video like a pro editor: plan the cut, cut, captions, music, colour, export and self-check with ffmpeg — plus the Clipoox Timeline (clipoox.com/mcp) and a /clipoox-video:setup check for the tools.",
+      "category": "video",
+      "tags": ["video", "editing", "ffmpeg", "captions", "clipoox"]
+    },
+    {
+      "name": "video-use",
+      "source": { "source": "github", "repo": "browser-use/video-use", "sha": "43cfc566833548093455c9d4a46bd69913b7e552" },
+      "skills": ["."],
+      "description": "browser-use/video-use (MIT), pinned: turns a folder of raw takes into final.mp4 (fillers out, grade, captions, self-check). Needs Python (uv) and the user's own ElevenLabs key for transcription.",
+      "homepage": "https://github.com/browser-use/video-use",
+      "license": "MIT",
+      "category": "video",
+      "tags": ["video", "talking-head", "third-party"]
+    },
+    {
+      "name": "auto-editor",
+      "source": { "source": "git-subdir", "url": "https://github.com/WyattBlue/auto-editor.git", "path": "skills", "sha": "eee0fcf7b368d389975f08f2a5a7b65576ea1664" },
+      "skills": ["."],
+      "description": "WyattBlue/auto-editor skills (Unlicense), pinned: cut silence and dead air automatically, export to Premiere / Resolve / Final Cut / Kdenlive. Needs the auto-editor program.",
+      "homepage": "https://github.com/WyattBlue/auto-editor",
+      "license": "Unlicense",
+      "category": "video",
+      "tags": ["video", "silence", "third-party"]
+    }
+  ]
+}

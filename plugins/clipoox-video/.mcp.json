@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "clipoox": {
+      "type": "http",
+      "url": "https://clipoox.com/mcp"
+    }
+  }
+}
